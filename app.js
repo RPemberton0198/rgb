@@ -116,6 +116,9 @@ function reset(){
 resetButton.addEventListener("click", function(){
 	reset();
 })
+	<!--changeColor will be called by using color-->
+	<!--for (***) indicates an equation for something-->
+	<!--possibly changing the background = to color-->
 
 function changeColors(color){
 	//loop through all squares
@@ -124,7 +127,8 @@ function changeColors(color){
 		squares[i].style.background = color;
 	}
 }
-
+	<!-- pickColors has no value assigned-->
+	<!-- therefore variant random equation returns random color based on user input maybe-->
 function pickColor(){
 	var random = Math.floor(Math.random() * colors.length);
 	return colors[random];
